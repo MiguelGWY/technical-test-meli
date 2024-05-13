@@ -22,7 +22,7 @@ export const HeaderComponent = () => {
   };
 
   return (
-    <header className={nameSpace}>
+    <header className={nameSpace} data-testid="header-component">
       <div className={`${nameSpace}__container`}>
         <div className={`${nameSpace}__logo`}>
           <button

@@ -4,6 +4,7 @@ exports[`HeaderComponent should render HeaderComponent 1`] = `
 <div>
   <header
     class="nav-header"
+    data-testid="header-component"
   >
     <div
       class="nav-header__container"
