@@ -25,7 +25,6 @@ export const getCategoryNames = (filters: CategoryFilter[]): string[] => {
 };
 
 export const getItems = (products: ItemResponse[]): Item[] => {
-  console.log("En el metodo getItem", products);
   return products.map((itemData) => ({
     id: itemData.id,
     title: itemData.title,
