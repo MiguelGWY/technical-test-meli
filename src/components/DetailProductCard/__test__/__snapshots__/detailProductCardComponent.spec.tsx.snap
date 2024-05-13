@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailProductCardComponent should render DetailProductCardComponent 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container__product-detail"
+    >
+      <div
+        class="container__img-description"
+      >
+        <div
+          class="container__img"
+        >
+          <img
+            alt="product-image"
+            src="www.ddd.com"
+          />
+        </div>
+        <h2
+          class="container__title-description"
+        >
+          Descripcion del producto
+        </h2>
+        <p
+          class="container__description"
+        >
+          Description Item
+        </p>
+      </div>
+      <div
+        class="container__product-info"
+      >
+        <div
+          class="container__condition"
+        >
+          Nuevo | +100 vendidos
+        </div>
+        <div
+          class="container__product-title"
+        >
+          test product
+        </div>
+        <p
+          class="container__price"
+        >
+          $ 
+          1234
+        </p>
+        <p
+          class="container__subtitles"
+        >
+          en 48x $ 15.685
+        </p>
+        <button
+          class="container__buy-button"
+        >
+          Comprar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

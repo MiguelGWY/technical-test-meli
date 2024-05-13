@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumbsComponent should render BreadCrumbsComponent 1`] = `
+<div>
+  <div
+    class="container-breadcrumbs"
+    data-testid="container-breadcrumbs"
+  >
+    <ol
+      class="container-breadcrumbs__breadcrumb"
+    >
+      <li
+        class="container-breadcrumbs__list"
+      >
+        <button
+          class="container-breadcrumbs__redirect-button"
+        >
+          Category 1
+        </button>
+         &gt; 
+      </li>
+      <li
+        class="container-breadcrumbs__list"
+      >
+        <button
+          class="container-breadcrumbs__redirect-button"
+        >
+          Category 2
+        </button>
+      </li>
+    </ol>
+  </div>
+</div>
+`;

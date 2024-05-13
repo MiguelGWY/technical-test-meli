@@ -1,0 +1,17 @@
+.container-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__breadcrumbs {
+    width: 900px;
+    height: 50px;
+  }
+
+  &__product {
+    width: 900px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+  }
+}

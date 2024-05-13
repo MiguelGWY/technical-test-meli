@@ -1,0 +1,32 @@
+.container-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__container-breadCrumbs {
+    width: 780px;
+    height: 50px;
+  }
+
+  &__container-list {
+    width: 750px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  &__ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__li {
+    background-color: white;
+  }
+
+}

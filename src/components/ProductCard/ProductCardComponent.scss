@@ -1,0 +1,42 @@
+.container-product {
+  margin-bottom: 10px;
+
+  &__product-elements {
+    display: flex;
+    padding: 20px;
+    border-radius: 4px;
+    border: thin solid #eee;
+  }
+
+  &__img {
+    padding-right: 20px;
+  }
+
+  &__img img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+  }
+
+  &__detail {
+    display: grid;
+  }
+
+  &__title p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  &__price {
+    font-size: 24px;
+    color: #333;
+  }
+
+  &__condition {
+    background: #ffffff;
+    color: #00a650;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

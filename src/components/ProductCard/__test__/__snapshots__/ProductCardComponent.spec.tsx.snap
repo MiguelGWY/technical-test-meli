@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCardComponent should render ProductCardComponent 1`] = `
+<div>
+  <section
+    class="container-product"
+  >
+    <div
+      class="container-product__product-elements"
+    >
+      <div
+        class="container-product__img"
+      >
+        <img
+          alt="Producto"
+          src="www.ddd.com"
+        />
+      </div>
+      <div
+        class="container-product__detail"
+      >
+        <div
+          class="container-product__title"
+        >
+          <p>
+            test product
+          </p>
+        </div>
+        <div
+          class="container-product__price"
+        >
+          $ 1234
+        </div>
+        <div
+          class="container-product__condition"
+        >
+          Nuevo
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage should render SearchPage 1`] = `
+<div>
+  <header
+    class="nav-header"
+  >
+    <div
+      class="nav-header__container"
+    >
+      <div
+        class="nav-header__logo"
+      >
+        <button
+          aria-label="Regresar a la home"
+          class="nav-header__redirect-button"
+        >
+          <img
+            alt="logo mercadolibre"
+            src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.43/mercadolibre/logo_large_25years_v2.png"
+          />
+        </button>
+      </div>
+      <div
+        class="nav-header__search"
+      >
+        <form
+          class="nav-header__form"
+          data-testid="form-input"
+        >
+          <label
+            class="nav-header__label"
+          >
+            Ingresa lo que quieras encontrar
+          </label>
+          <input
+            class="nav-header__search-input"
+            placeholder="Nunca dejes de buscar"
+            type="text"
+            value=""
+          />
+        </form>
+      </div>
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,20 @@
+.container-breadcrumbs {
+  &__breadcrumb {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  &__list {
+    list-style: none;
+    display: inline-block;
+    color: gray;
+  }
+
+  &__redirect-button {
+    color: gray;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+}
