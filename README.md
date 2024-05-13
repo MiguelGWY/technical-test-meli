@@ -5,7 +5,6 @@ Run Project
 ```js
 npm run dev
 npm run test
-}
 ```
 Actual Coverage
 
