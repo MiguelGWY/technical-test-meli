@@ -13,18 +13,4 @@ describe("ResultSearchPage", () => {
 
     expect(container).toMatchSnapshot();
   });
-
-  //   it("should call getProducts with the searchParam from the URL", async () => {
-  //     const searchParam = "example";
-  //     const getProductsMock = jest.spyOn(productsService, "getProducts")
-  //       .mockResolvedValueOnce({});
-
-  //     render(<ResultSearchPage />);
-
-  //     await waitFor(() => {
-  //       expect(getProductsMock).toHaveBeenCalledWith(searchParam);
-  //     });
-
-  //     expect(getProductsMock).toHaveBeenCalledTimes(1);
-  //   });
 });
